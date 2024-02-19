@@ -1,0 +1,5 @@
+-division by zero: "you can't divide a number by zero!"
+
+-adding more than one point decimal: "Only one decimal point is allowed!"
+
+-sqrt with negative number: "you can't take sqrt of a negative number!"

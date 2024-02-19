@@ -1,0 +1,62 @@
+.page {
+    display: flex;            
+    justify-content: center;
+    align-items: center;
+}
+
+/*the Container style */
+.container {
+    display: flex;
+    flex-direction: column; /* display items vertically */
+    align-items: center; /* display items horizontally in the center */
+    gap: 10px; /* provide Space between container's elements */
+    width: 600px;
+    height: 700px; 
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Content that overflows the container will be hidden */
+}
+
+h1 {
+    margin: 50px;
+    font-size: 3rem;
+    color: #ac6767;
+}
+
+/* CSS Button styles */
+button {
+    background-color: #dddddd;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ac6767;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+/* CSS Grid container for buttons */
+.btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*  Four columns with equal width */
+    gap: 5px; /*  Spacing between grid items */
+    
+}
+
+/* CSS Button styles within the grid */
+.btn button {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(216, 201, 201);
+    border-radius: 2px;
+}
+
+button:active {
+    background-color: #ccc;
+}
